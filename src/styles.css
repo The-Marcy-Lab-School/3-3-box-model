@@ -1,3 +1,10 @@
+:root {
+  --color-light: powderblue;
+  --color-dark: midnightblue;
+  --color-accent: royalblue;
+  --color-white: white;
+}
+
 img {
   width: 100%;
 }
@@ -8,25 +15,27 @@ figure {
 }
 
 body {
-  background-color: powderblue;
-  color: midnightblue;
-
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  text-align: center;
-}
-
-nav>a {
-  background-color: royalblue;
-  color: white;
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 header {
-  background-color: midnightblue;
+  background-color: var(--color-dark);
+}
+
+nav>a {
+  background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 section {
-  background-color: white;
+  background-color: var(--color-white);
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
 }
 
 h1 {
@@ -38,22 +47,17 @@ ol {
 }
 
 .programming-skill {
-  background-color: royalblue;
-  color: white;
-}
-
-.quote {
-  background-color: powderblue;
-  color: midnightblue;
+  background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 #tagline,
 figcaption {
   font-style: italic;
-  color: royalblue;
+  color: var(--color-accent);
 }
 
 nav>a:hover {
-  color: royalblue;
-  background-color: white;
+  color: var(--color-accent);
+  background-color: var(--color-white);
 }
