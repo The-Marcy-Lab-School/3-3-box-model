@@ -1,0 +1,59 @@
+img {
+  width: 100%;
+}
+
+figure {
+  max-width: 300px;
+  margin-inline: auto;
+}
+
+body {
+  background-color: powderblue;
+  color: midnightblue;
+
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+nav>a {
+  background-color: royalblue;
+  color: white;
+}
+
+header {
+  background-color: midnightblue;
+}
+
+section {
+  background-color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ol {
+  text-align: left;
+}
+
+.programming-skill {
+  background-color: royalblue;
+  color: white;
+}
+
+.quote {
+  background-color: powderblue;
+  color: midnightblue;
+}
+
+#tagline,
+figcaption {
+  font-style: italic;
+  color: royalblue;
+}
+
+nav>a:hover {
+  color: royalblue;
+  background-color: white;
+}
