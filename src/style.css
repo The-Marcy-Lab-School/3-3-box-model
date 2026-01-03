@@ -51,6 +51,11 @@ ol {
   color: var(--color-white);
 }
 
+.quote {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
 #tagline,
 figcaption {
   font-style: italic;
@@ -60,4 +65,5 @@ figcaption {
 nav>a:hover {
   color: var(--color-accent);
   background-color: var(--color-white);
+
 }
